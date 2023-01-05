@@ -1,28 +1,10 @@
-html {
-height: 100%;
-} 
 
 body {
-background-color: #FFFFFF;
 text-align: center;
-margin: 0px;
-padding: 0px;
 height: 100%;
-font-family: Verdana, Arial, Helvetica, sans-serif;
-font-size: 90%;
-color: #000000;
+font-family: monospace;
 }
 
-#box {
-background-color: #FFFFFF;
-text-align: left;
-width: 100%;
-margin-top: 0px;
-margin-right: auto;
-margin-bottom: 0px;
-margin-left: auto; 
-height: 100%; 
-}
 
 #top {
 background-color: #FFFFFF;
@@ -30,37 +12,49 @@ margin-left: 100px;
 }
 
 #barretta {
-background-color: #CC0000;
-font-family: Verdana, Arial, Helvetica, sans-serif;
-font-size: 11px;
-font-weight: bold;
+background-color: #252525;
+font-family: monospace;
 color: #FFFFFF;
-border-top: 2px solid #CCCCCC;
-border-bottom: 2px solid #CCCCCC;
-padding-left: 250px;
-padding-top: 2px;
-padding-bottom: 2px;
+padding-top: 5px;
+padding-bottom: 10px;
 }
 
-#left {
-background-color: #CCCCCC;
-float: left;
-width: 15%; 
-height: 100%;
-padding-top: 10px;
-margin: 0px;
+div.menu{
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left:50%;
+    color: white;
+    text-align: center;
 }
+
+
+li.menu-list{
+    display: inline;
+    text-transform: capitalize;
+    font-size: 15;
+    font-family: monospace;
+    margin: 0px 30px 0px;
+    border-bottom: 0px solid #6699FF;
+}
+li.menu-list:hover{
+    border-bottom: 0px solid #6699FF;
+    color:#6699FF;
+    transition: .1s;
+    transition-timing-function: cubic-bezier(.51, .23, .74, 1.52);
+}
+
 
 #middle {
 background-color: #CCFFFF;
-width: 85%;
+width: 100%;
 float: left;
 height: 100%;
 margin: 0px;
 }
 
 .menu {
-font-family: Verdana, Arial, Helvetica, sans-serif;
+font-family: monospace;
 font-size: 12px;
 font-weight: bold;
 color: #000000;
@@ -68,27 +62,22 @@ background-color: #FFFFFF;
 }
 
 .menu a {
-font-family: Verdana, Arial, Helvetica, sans-serif;
+font-family: monospace;
 font-size: 12px;
 font-weight: bold;
 color: #000000;
 text-decoration: none;
 background-color: #6699FF;
-display: block;
 width: auto;
-border-bottom: 6px solid #000000;
-border-right: 0px solid #000000;
-border-left: 0px solid #000000;
-border-top: 1px solid #FFFFFF;
-padding: 4px;
 }
 
 .menu a:hover {
-background-color: #FFFF66;
+background-color: #000000;
+color: white;
 }
 
 #contenuto {
-font-family: Verdana, Arial, Helvetica, sans-serif;
+font-family: monospace;
 font-size: 12px;
 color: #000000;
 background-color: #FFFF00;
@@ -96,5 +85,4 @@ width: 90%;
 margin-right: 15px;
 margin-left: 15px;
 margin-top: 15px;
-padding-left: 10px;
 }
