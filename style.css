@@ -5,6 +5,18 @@ height: 100%;
 font-family: monospace;
 }
 
+a:link
+{
+    font-family: monospace;
+    color: #0055ff;
+    text-decoration: none;
+}
+
+a:visited{
+    font-family: monospace;
+    color: #0055ff;
+    text-decoration: none;
+}
 
 #top {
 background-color: #FFFFFF;
@@ -12,7 +24,7 @@ margin-left: 100px;
 }
 
 #barretta {
-background-color: #252525;
+background-color: #ffffff;
 font-family: monospace;
 color: #FFFFFF;
 padding-top: 5px;
@@ -35,18 +47,19 @@ li.menu-list{
     font-size: 15;
     font-family: monospace;
     margin: 0px 30px 0px;
-    border-bottom: 0px solid #6699FF;
+    border-bottom: 0px solid #0055ff;
+    font-weight: bold;
 }
 li.menu-list:hover{
-    border-bottom: 0px solid #6699FF;
-    color:#6699FF;
+    border-bottom: 2px solid #0055ff;
+    color:#0055ff;
     transition: .1s;
     transition-timing-function: cubic-bezier(.51, .23, .74, 1.52);
 }
 
 
 #middle {
-background-color: #CCFFFF;
+background-color: #ffffff;
 width: 100%;
 float: left;
 height: 100%;
@@ -67,7 +80,7 @@ font-size: 12px;
 font-weight: bold;
 color: #000000;
 text-decoration: none;
-background-color: #6699FF;
+background-color: #0055ff;
 width: auto;
 }
 
