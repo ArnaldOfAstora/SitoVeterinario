@@ -1,0 +1,30 @@
+#content{
+    text-align: left;
+    align-self: center;
+    margin: 170px 300px 50px 220px;
+    float: left;
+}
+img.left{
+    float: left;
+    padding-left: 40px 220px 50px 220px;
+}
+
+img.right{
+    float: right;
+    padding-left: 40px 220px 50px 220px;
+}
+
+p.staff{
+    padding-top: 50px;
+}
+
+h1{
+    color: #003064;
+    text-transform: capitalize;
+
+}
+h2{
+    font-size:medium;
+    color: #003064;
+
+}
