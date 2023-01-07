@@ -4,43 +4,53 @@ height: 100%;
 font-family: monospace;
 }
 
-div.scolastico{
+#top{
     text-align: center;
     font-family: monospace;
-    color: #0055ff;
+    color: #0136a0;
     font-size: 20;
-    border-bottom: 1px solid #74bdf8;
+    border-bottom: 1px solid #0136a0;
     width: 100%;
+    font-weight: bold;
+    font-style: italic;
+    height: 10%;
+}
+
+div.logo{
+    float:left;
+    width: 20%;
+}
+
+div.top-scolastico{
+    width: 80%;
+    padding-left: 294px;
+    padding-top: 28px;
+}
+
+div.top-contatti{
+    float: right;
 }
 
 a:link{
     font-family: monospace;
-    color: #0055ff;
+    color: #0136a0;
     text-decoration: none;
 }
 
 a:visited{
     font-family: monospace;
-    color: #0055ff;
+    color: #0136a0;
     text-decoration: none;
 }
 
 div.menu{
     width: 100%;
     height: auto;
-    color: white;
     text-align: center;
 }
 
-#top{
-    width: 90%;
-    float: right;
-}
 
-img{
-    float:left;
-    padding-left: 35px;
-}
+
 
 ul.menu-list{
     padding-top: 14px;
@@ -53,13 +63,13 @@ li.menu-list{
     font-size: 18;
     font-family: monospace;
     margin: 0px 50px 0px 90px;
-    border-bottom: 0px solid #0055ff;
+    border-bottom: 0px solid #0136a0;
     font-weight: bold;
 }
 
 li.menu-list:hover{
-    border-bottom: 3px solid #0055ff;
-    color:#0055ff;
+    border-bottom: 3px solid #0136a0;
+    color:#0136a0;
     transition: .1s;
     transition-timing-function: cubic-bezier(.51, .23, .74, 1.52);
 }
@@ -69,7 +79,6 @@ background-color: #ffffff;
 width: 100%;
 float: left;
 height: 100%;
-border-top: 1px solid #74bdf8;
 }
 
 #contenuto{
@@ -79,3 +88,7 @@ color: #000000;
 background-color: #74bdf8;
 width: 100%;
 }
+
+
+
+
