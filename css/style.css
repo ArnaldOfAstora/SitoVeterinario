@@ -100,6 +100,13 @@ a:link{
     color: #003064;
     text-decoration: none;
 }
+
+a.Map:link{
+    font-family: Poppins, sans-serif;
+    color: #003064;
+    text-decoration: none;
+}
+
 a:link.soc{
     font-family: Poppins, sans-serif;
     color: #fff;
