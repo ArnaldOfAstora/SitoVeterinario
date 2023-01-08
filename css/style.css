@@ -78,6 +78,10 @@ ul.menu-list{
     padding-top: 28px;
 }
 
+a:link{
+    text-decoration: none;
+}
+
 li.menu-list{
     display: inline;
     text-transform: capitalize;
@@ -95,30 +99,25 @@ li.menu-list:hover{
     transition-timing-function: cubic-bezier(.51, .23, .74, 1.52);
 }
 
-a:link{
-    font-family: Poppins, sans-serif;
-    color: #003064;
-    text-decoration: none;
-}
-
 a.Map:link{
     font-family: Poppins, sans-serif;
-    color: #003064;
+    color: #ffffff;
     text-decoration: none;
 }
 
-a:link.soc{
+
+a.qui:link{
     font-family: Poppins, sans-serif;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
+    
 }
-
-
 a.qui:visited{
     font-family: Poppins, sans-serif;
     color: #ffffff;
     text-decoration: none;
 }
+
 a.qui:hover{
     border-bottom: 3px solid #ffffff;
     color:#ffffff;
