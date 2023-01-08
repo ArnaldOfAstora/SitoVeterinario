@@ -1,45 +1,54 @@
 <html>
 	<head>
-		<title>Centro Veterinario SOS</title>
-		<LINK REL="stylesheet" HREF= "css/style.css"  TYPE="text/css">
-		<meta charset="UTF-8">
+		<title>Photogallery</title>
+			<LINK REL="stylesheet" HREF= "css/photo.css"  TYPE="text/css">
+			<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" href="img/favicon.ico"/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 	</head>
 	<body>
-			
-		<div id="top">
-			<div class="top-scolastico">SITO AD USO ESCLUSIVAMENTE SCOLASTICO</div>
-		</div>
+			<div id="topbar">
+			<a class="home" href="index.html"><h1>Home</h1></a>
 
-		<nav class="menu">
-			<div class="logo"><a href="index.html"><img src="img/logo.png"/></a></div>		
-			<ul class="menu-list">
-				<li class="menu-list"><a href="index.html">home</a></li>
-				<li class="menu-list"><a href="chisiamo.html">chi siamo</a></li>
-				<li class="menu-list"><a href="dovesiamo.html">dove siamo</a></li>
-				<li class="menu-list"><a href="serivzi.html">servizi</a></li>
-				<li class="menu-list"><a href="photogallery.html">photogallery</a></li>
-				<li class="menu-list"><a href="contatti.html">contatti</a></li>
-			</ul>
-		</nav>
-			<img src="img/dog-bg-ns.jpg">
-		<footer>
-			<div class="footer-content">
-				<h1><a class="qui" href="MapSens.html">Prof se vuole vedere la mappa sensibile schiacci Qui</a></h1>
-				<p>Sito ad uso esclusivamente scolastico, Iseo, Antonietti, 5I</p>
-				<ul class="socials">
-					<li><a href="https://www.facebook.com/profile.php?id=100089064620341"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="https://twitter.com/LeonardoPozzi23"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="https://www.instagram.com/arnald_c.c_/"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="https://www.youtube.com/channel/UCsVmvdFmeIL8Tf82d5xRvuA"><i class="fa fa-youtube"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/leonardo-pozzi-786119261/"><i class="fa fa-linkedin-square"></i></a></li>
-				</ul>
 			</div>
-			<div class="footer-bottom">
-				<p>copyright &copy;2020 Centro Veterinario SOS | designed by <span>Leonardo Pozzi</span></p>
+			<div class="container">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/slider/photo1.jpg"></div>
+					<div class="swiper-slide"><img src="img/slider/photo2.jpg"></div>
+					<div class="swiper-slide"><img src="img/slider/photo3.jpg"></div>
+					<div class="swiper-slide"><img src="img/slider/photo4.jpg"></div>
+					<div class="swiper-slide"><img src="img/slider/photo5.jpg"></div>
+					<div class="swiper-slide"><img src="img/slider/photo6.jpg"></div>
+					<div class="swiper-slide"><img src="img/slider/photo7.jpg"></div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
 			</div>
-		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<script>
+		const swiper = new Swiper('.swiper', {
+			autplay:{
+				delay:3000,
+				disableOnInteraction: false,
+			},
+			loop: true,
+			pagination: {
+			  el: '.swiper-pagination',
+			  cickable: true,
+			},
+			navigation: {
+			  nextEl: '.swiper-button-next',
+			  prevEl: '.swiper-button-prev',
+			},
+		  });
+		  </script>
 	</body>
 </html>
+ 

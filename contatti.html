@@ -1,11 +1,13 @@
 <html>
 	<head>
-		<title>Centro Veterinario SOS</title>
+		<title>Contattaci</title>
 		<LINK REL="stylesheet" HREF= "css/style.css"  TYPE="text/css">
+		<LINK REL="stylesheet" HREF= "css/form.css"  TYPE="text/css">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" href="img/favicon.ico"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 	</head>
 	<body>
 			
@@ -23,14 +25,59 @@
 				<li class="menu-list"><a href="photogallery.html">photogallery</a></li>
 				<li class="menu-list"><a href="contatti.html">contatti</a></li>
 			</ul>
-		</nav>
-			<img src="img/dog-bg-ns.jpg">
+		</nav><br><br><br><br><br><br><br>
+		<form method="POST" action="registrare_suggerimento.php"></form>
+		<section class="contact">
+			<h2>Sistema Qualità: suggerimenti ed idee</h2>
+			<div class="contact-form">
+			<p>Dott. Luigi Ferrillo Sono disponibile 24h su 24h. Chiamateci a questo numero 090-4444-4444
+				o tramite email: pozzi.leonardo23@gmail.com
+			</p><br>
+			<form action="">
+				<p>Vi invitiamo a collaborare al miglioramento della nostra attività attraverso suggerimenti e idee che potete scrivere nella casella in calce a questo messaggio.
+				</p>
+				<p>Il vostro contributo sarà letto ed esaminato dal Gruppo Qualità ed i suggerimenti applicabili saranno inseriti nel Piano di Miglioramento. Grazie!</p> 
+				<br>
+				<h1>Inserisci la tua e-mail</h1><input type="email" name="email" id="" placeholder="E-mail" size="40" required><br><br>
+				<h1>Scrivici un suggerimento/idea</h1><textarea rows="8" cols="50" name="commento" placeholder="Scrivi un suggerimento">
+				</textarea>
+				<br><br>
+				<h1>Informazioni Aggiuntive</h1>
+				<p>Se hai ancora un po' di tempo, aiutaci a migliorare il servizio fornendoci alcune informazioni aggiuntive</p><br>
+				<h1>Dati Personali</h1>
+				<h1>Nome</h1><input type="" placeholder="Nome" required>
+				<input type="text" placeholder="Cognome" required><br><br>
+				<h1>Sesso</h1>
+				<input type="radio" name="sex" value="M" class="maschio">Maschio  <input type="radio" name="sex" value="F" class="femmina">Femmina
+				<br><br>
+				<h1>Fascia d'età</h1> 
+				<select   name="giorno"> 
+				<option selected value="seleziona">seleziona</option> 
+				<option  value="min16">minore di 16</option> 
+				<option  value="16-19">16 - 19</option> 
+				<option  value="20-39">20 - 39</option>
+				<option  value="40-59">40 - 59</option>
+				<option  value="over60">maggiore o uguale a 60</option>
+				</select><br><br>
+				<h1>Dimostra di non essere un robot</h1>
+				<p>Quanto fa 3+2=?</p>
+				<input type="text" placeholder="risultato"><br><br>
+				<input type="submit" value="Invia i dati al server" name="invia">
+				<input type="reset" value="Annulla" name="cancella"> 
+
+			</form>
+
+		</div>
+
+
+		</section>
+
 		<footer>
 			<div class="footer-content">
 				<h1><a class="qui" href="MapSens.html">Prof se vuole vedere la mappa sensibile schiacci Qui</a></h1>
-				<p>Sito ad uso esclusivamente scolastico, Iseo, Antonietti, 5I</p>
+				<p style="color: white;">Sito ad uso esclusivamente scolastico, Iseo, Antonietti, 5I</p>
 				<ul class="socials">
-					<li><a href="https://www.facebook.com/profile.php?id=100089064620341"><i class="fa fa-facebook"></i></a></li>
+					<li><a class="soc" href="https://www.facebook.com/profile.php?id=100089064620341"><i class="fa fa-facebook"></i></a></li>
 					<li><a href="https://twitter.com/LeonardoPozzi23"><i class="fa fa-twitter"></i></a></li>
 					<li><a href="https://www.instagram.com/arnald_c.c_/"><i class="fa fa-instagram"></i></a></li>
 					<li><a href="https://www.youtube.com/channel/UCsVmvdFmeIL8Tf82d5xRvuA"><i class="fa fa-youtube"></i></a></li>
@@ -38,7 +85,7 @@
 				</ul>
 			</div>
 			<div class="footer-bottom">
-				<p>copyright &copy;2020 Centro Veterinario SOS | designed by <span>Leonardo Pozzi</span></p>
+				<p style="color: white;">copyright &copy;2020 Centro Veterinario SOS | designed by <span style="text-transform: uppercase; opacity: .4; font-weight: 200;">Leonardo Pozzi</span></p>
 			</div>
 		</footer>
 	</body>

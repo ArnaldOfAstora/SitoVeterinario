@@ -97,7 +97,12 @@ li.menu-list:hover{
 
 a:link{
     font-family: Poppins, sans-serif;
-    color: #ffffff;
+    color: #003064;
+    text-decoration: none;
+}
+a:link.soc{
+    font-family: Poppins, sans-serif;
+    color: #fff;
     text-decoration: none;
 }
 
